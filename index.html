@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- IMPORT FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- IMPORT ROBOTO FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <!-- IMPORT STYLE FILE -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- IMPORT SCRIPT FILE -->
+    <script src="script/index.js" defer></script>
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- NAVBAR -->
+      <nav id="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            Services <i class="fas fa-angle-down"></i>
+            <ul>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Online Reading</a></li>
+              <li><a href="#">Online Review</a></li>
+            </ul>
+          </li>
+          <li>
+            <span class="badge"></span> Cart
+            <i class="fas fa-angle-down"></i>
+            <ul id="cart-products">
+              <li><a href="#"></a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <hr />
+
+      <!-- MAIN SECTION - PRODUCTS -->
+      <main id="mainSection"></main>
+    </div>
+    <!-- MODAL VIEW -->
+    <section class="modal"></section>
+  </body>
+</html>
