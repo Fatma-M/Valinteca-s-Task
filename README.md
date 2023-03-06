@@ -22,3 +22,5 @@ Users Can:
 - SASS (SCSS)
 - JavaScript
 - LocalStorage for Data
+- FontAwesome for Icons
+- Google Fonts
